@@ -12,5 +12,11 @@ package testgit;
 public class Login {
     protected int id;
     protected String name;
-    
+    protected String lastName;
+
+    public Login(int id, String name, String lastName) {
+        this.id = id;
+        this.name = name;
+        this.lastName = lastName;
+    }
 }
