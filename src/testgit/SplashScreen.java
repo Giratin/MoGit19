@@ -10,4 +10,5 @@ package testgit;
  * @author Hosni
  */
 public class SplashScreen {
+    
 }
