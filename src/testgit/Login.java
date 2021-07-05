@@ -12,8 +12,13 @@ package testgit;
 public class Login {
     protected int id;
     protected String name;
+
     protected String lastName;
     protected String CIN;
+
+    public int getId() {
+        return id;
+    }
 
     public Login(int id, String name, String lastName) {
         this.id = id;
@@ -22,4 +27,10 @@ public class Login {
         this.CIN = "0000000000";
     }
 
+
+    public String getName() {
+        return name;
+    }
+    
+   
 }
